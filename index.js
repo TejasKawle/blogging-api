@@ -12,7 +12,7 @@ app.use(cors());
 
 
 app.get("/", (req, res) => {
-  res.send("Welcome to my Blogging API 🚀");
+  res.send("Welcome to my Blogging API ");
 });
 
 connectDB();
