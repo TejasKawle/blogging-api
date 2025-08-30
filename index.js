@@ -11,6 +11,10 @@ app.use(express.json());
 app.use(cors());
 
 
+app.get("/", (req, res) => {
+  res.send("Welcome to my Blogging API 🚀");
+});
+
 connectDB();
 
 app.use('/api/auth', authRoutes);
